@@ -62,4 +62,18 @@ end
 def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
+  
+  assembled_matrix = [
+  ENFIELD_TENNIS_ACADEMY = [
+  "Gerhard Schtitt", 
+  "Hal Incandenza", "Lyle", "Mario Incandenza",
+  "Michael Pemulis"]
+  ENNET_HOUSE = [
+  "Bruce Green", "Don Gately", 
+  "Joelle van Dyne", "Kate Gompert", 
+  "Pat M."] 
+  ] 
+  
+  assembled_matrix[0][2] = "Tiny Ewell" 
+  puts assembled_matrix 
 end
